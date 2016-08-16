@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="52" height="52" tilewidth="8" tileheight="8" nextobjectid="17">
+ <tileset firstgid="1" name="tile" tilewidth="8" tileheight="8">
+  <image source="tile.png" trans="000000" width="224" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="tilewall" value="1"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="tilewall" value="2"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="str" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="str" value="2"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="tilewall" value="3"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="tilewall" value="4"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="str" value="3"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="str" value="4"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="113" name="tile" tilewidth="32" tileheight="32">
+  <image source="tile.png" trans="000000" width="224" height="32"/>
+  <tile id="5">
+   <properties>
+    <property name="home" value="1"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="home" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="120" name="tile" tilewidth="32" tileheight="16">
+  <image source="tile.png" trans="000000" width="224" height="32"/>
+ </tileset>
+ <tileset firstgid="134" name="tile" tilewidth="16" tileheight="16">
+  <image source="tile.png" trans="000000" width="224" height="32"/>
+  <tile id="2">
+   <properties>
+    <property name="1" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg1" width="52" height="52">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKAjEMheFRGG+hoPc/pF2Whw2Ehkki/wehi27SvFJ6HACi3Ebdp7XbvnqOek1rt32VPV/ysWXPl3xs2fMlH1v0/M5Rj2ntns971Gdayce3r8in1r7Kfp+q5bOrWj67yMf2b/nsys43WrX57iKfWN55Xv2+efvzzvPq983bn/5/VfV8tH/9/6rq+QAAAAAAYp2L6srqveu5uvb9y+p+db13q545j88XVAYhSg==
+  </data>
+ </layer>
+ <layer name="bg2" width="52" height="52" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJACAQA0Ab3UP3H1IX8LEQ8eEOQiBtSgEAAAAAAAAAAOClutKCzqavjKCz2f2Q/Z/T/Xf+uWMCZ9oCcQ==
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="1" name="pl1" x="136" y="384" width="24" height="24"/>
+  <object id="2" name="pl2" x="256" y="384" width="24" height="24"/>
+  <object id="3" name="en1" x="0" y="0" width="32" height="32"/>
+  <object id="4" name="en2" x="192" y="0" width="32" height="32"/>
+  <object id="5" name="en3" x="384" y="0" width="32" height="32"/>
+  <object id="6" name="home" x="192" y="384" width="32" height="32"/>
+  <object id="7" name="t1" x="64" y="184" width="24" height="24"/>
+  <object id="8" name="t2" x="384" y="112" width="24" height="24"/>
+  <object id="9" name="t3" x="64" y="320" width="24" height="24"/>
+  <object id="10" name="t4" x="320" y="248" width="24" height="24"/>
+  <object id="11" name="t5" x="232" y="152" width="24" height="24"/>
+  <object id="12" name="t6" x="296" y="184" width="24" height="24"/>
+  <object id="13" name="t7" x="4" y="148" width="24" height="24"/>
+  <object id="14" name="t8" x="64" y="8" width="24" height="24"/>
+  <object id="15" name="t9" x="8" y="384" width="24" height="24"/>
+  <object id="16" name="t10" x="260" y="276" width="24" height="24"/>
+ </objectgroup>
+</map>
